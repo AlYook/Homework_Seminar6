@@ -4,7 +4,7 @@
 // 1, -7, 567, 89, 223-> 3
 
 int[] newArray = GetArray();
-int newCount = ElCount(newArray);
+int newCount = GetArrayCount(newArray);
 
 int[] GetArray()
 {
@@ -22,7 +22,7 @@ Console.WriteLine(string.Join(", ", array));
 return array;
 }
 
-int ElCount(int[] array, int count = 0)
+int GetArrayCount(int[] array, int count = 0)
 {
     for (int i = 0; i < array.Length; i++)
     {
