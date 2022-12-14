@@ -15,7 +15,7 @@ for (int i = 0; i < array.Length; i++)
     Console.WriteLine($"Введите точку отрезка {WordArray[i]}: ");
     array[i] = int.Parse(Console.ReadLine());
 }
-Console.WriteLine(string.Join(", ", array));
+Console.WriteLine($"отрезок 1 ({array[0]};{array[1]}); отрезок 2 ({array[2]};{array[3]})");
 return array;
 }
 
