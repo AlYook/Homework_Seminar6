@@ -2,6 +2,10 @@
 
 // 0, 7, 8, -2, -2 -> 2
 // 1, -7, 567, 89, 223-> 3
+
+int[] newArray = GetArray();
+int newCount = ElCount(newArray);
+
 int[] GetArray()
 {
 Console.WriteLine("Введите количество элементов массива: ");
@@ -30,6 +34,3 @@ int ElCount(int[] array, int count = 0)
 Console.WriteLine(count);
 return count;
 }
-
-int[] newArray = GetArray();
-int newCount = ElCount(newArray);
